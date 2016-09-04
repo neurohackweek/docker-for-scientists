@@ -22,6 +22,7 @@ Let's go `inside` the container (an instance of an image) and poke around:
 `docker run -ti --rm bids/base_fsl`
 
 A Linux shell prompt should appear (independently of your host operating system!). Play around. Can you answer the following questions:
+
 - What user are you inside the container? Is it the same user as on your host computer?
 - Can you run FSL tools such as `bet`?
 - Can you access files from your host computer?
