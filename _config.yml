@@ -6,17 +6,17 @@
 kind: "lesson"
 
 # Overall title for pages.
-title: "Lesson template for Neurohackweek"
+title: "Using  containers (Docker/Singularity) in science"
 
 # Repository URL (without trailing slash).
-repo: https://github.com/neurohackweek/lesson-template
+repo: https://github.com/chrisfilo/docker-for-scientists
 
 # Root URL below username.github.io domain, with leading slash but no trailing slash.
 # For example, for 'https://neurohackweek.github.io/lesson-example', use '/lesson-example'.
-root: "/lesson-template"
+root: "/docker-for-scientists"
 
 # Contact email address.
-email: arokem@uw.edu
+email: krzysztof.gorgolewski@gmail.com
 
 #------------------------------------------------------------
 # Generic settings (should not need to change).
@@ -34,7 +34,7 @@ example_repo: "https://github.com/swcarpentry/lesson-example"
 example_site: "https://swcarpentry.github.com/lesson-example"
 
 # Start time in minutes (540 is 09:00 am)
-start_time: 540
+start_time: 600
 
 # Specify that things in the episodes collection should be output.
 collections:
