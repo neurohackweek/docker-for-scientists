@@ -31,6 +31,7 @@ A Linux shell prompt should appear (independently of your host operating system!
 ### Accessing local files
 
 Before we try to access files from the localhost lets get some example data
+
 1. Create a folder on your local machine. I went with `/d/docker_tutorial`
 2. Go to [NeuroVault.org](http://neurovault.org) pick a map (for example [this one](http://neurovault.org/media/images/457/tfMRI_SOCIAL_TOM-RANDOM_zstat1.nii.gz) and download it to the example folder.
 
@@ -38,6 +39,7 @@ Let's mount this folder so it will be accessible from the container when we run 
 `docker run -ti --rm -v /d/docker_tutorial://data bids/base_fsl`
 
 Excercises:
+
 1. Can you see the downloaded map in `/data` folder inside the container?
 2. Can you use tools installed in the container on the files in the `/data` folder? For example `fslmaths /data/tfMRI_SOCIAL_TOM-RANDOM_zstat1.nii.gz -kernel gauss 10 /data/smoothed.nii.gz`
 3. After getting out of the container can you see the modified files on your host system?
