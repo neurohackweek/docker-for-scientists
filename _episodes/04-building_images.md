@@ -11,7 +11,7 @@ keypoints:
 
 ## Creating Dockeer images
 
-Docker images are created using simple recipe files called Dockerfiles. Let's create a Dockerfile. Open your favourite editor and type the following text, and save it under the name `Dockerfile` (no extensions).
+Docker images are created using simple recipe files called Dockerfiles. Let's create a Dockerfile. Open your favourite editor and type the following text, and save it under the name `Dockerfile` (no extensions) **inside an empty folder**.
 
 ```
 FROM bids/base_fsl
