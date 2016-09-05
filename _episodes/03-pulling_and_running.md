@@ -1,6 +1,6 @@
 ---
 title: "Pulling and running a container"
-teaching: 1
+teaching: 0
 exercises: 15
 questions:
 objectives:
