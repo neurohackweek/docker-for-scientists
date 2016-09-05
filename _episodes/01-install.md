@@ -3,10 +3,11 @@ title: "Installing Docker"
 teaching: 5
 exercises: 10
 questions:
+- "How do I install Docker?"
 objectives:
 - "Install Docker on your laptop"
 keypoints:
-- Choose the right version.
+- "Docker runs on Windows, Mac OS X, and Linux."
 
 - Decide between "Docker for.." and "docker-machine".
 

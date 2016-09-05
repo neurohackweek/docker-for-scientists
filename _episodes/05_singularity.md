@@ -7,11 +7,12 @@ questions:
 objectives:
 - "Learn how to use Singularity"
 keypoints:
+- "You can use Singularity to run containers on multitenant systems."
 ---
 
 ## Running containers on clusters and HPCs
 
-Docker works great on modern operating systems in asingle tenant scenarios. However, due to kerl feature requirements and the need for elevated security 
+Docker works great on modern operating systems in asingle tenant scenarios. However, due to kerl feature requirements and the need for elevated security
 it is hard sell for administrators of academic clusters. All of the reasons for the dealbreaker Docker requirements are for functionality (networking, resource sandboxing etc.)
 that are not crucial in context of academic use. A different container framework [Singularity](http://singularity.lbl.gov/) provides ability to run containers without
 the need for special kernel versions or security workarounds. It still needs to be installed on the cluster, but it's much more popular among HPC admins

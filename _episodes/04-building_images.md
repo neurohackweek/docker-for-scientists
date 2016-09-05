@@ -1,12 +1,13 @@
 ---
 title: "Creating your own docker images"
-teaching: 
+teaching:
 exercises: 10
 questions:
 - "How can I build my own images?"
 objectives:
 - "Learn how to create Docker images"
 keypoints:
+- "Container images are build using simple recipes - Dockerfiles."
 ---
 
 ## Creating Dockeer images
@@ -32,4 +33,3 @@ Excercises:
 2. What happens if you run the build command again?
 3. Could you modify your Dockerfile to include nibabel and nilearn packages?
 4. When you rebuild your image did you notice something unusual?
-

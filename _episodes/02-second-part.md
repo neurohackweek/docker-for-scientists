@@ -10,6 +10,7 @@ objectives:
 - "Lean the theory behind Docker"
 - "Understand what is Docker good for"
 keypoints:
+- "Docker is a kernel level virtualization system."
 ---
 
 ## What is Docker?

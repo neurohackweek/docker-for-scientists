@@ -9,6 +9,9 @@ objectives:
 - "Mount local folders"
 - "Apply software from the image to analyze local data"
 keypoints:
+- "Container images are downloaded from Docker Hub."
+- "You can run shell inside the container."
+- "Only explicitly mounted host folder are accessible inside the container."
 ---
 
 ### Pulling and image
@@ -44,4 +47,3 @@ Excercises:
 1. Can you see the downloaded map in `/data` folder inside the container?
 2. Can you use tools installed in the container on the files in the `/data` folder? For example `fslmaths /data/tfMRI_SOCIAL_TOM-RANDOM_zstat1.nii.gz -kernel gauss 10 /data/smoothed.nii.gz`
 3. After getting out of the container can you see the modified files on your host system?
-
