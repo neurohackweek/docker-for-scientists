@@ -40,7 +40,7 @@ Before we try to access files from the localhost lets get some example data
 2. Go to [NeuroVault.org](http://neurovault.org) pick a map (for example [this one](http://neurovault.org/media/images/457/tfMRI_SOCIAL_TOM-RANDOM_zstat1.nii.gz) and download it to the example folder.
 
 Let's mount this folder so it will be accessible from the container when we run it
-`docker run -ti --rm -v /d/docker_tutorial://data bids/base_fsl`
+`docker run -ti --rm -v D:\docker_tutorial:/data bids/base_fsl`
 
 Excercises:
 
