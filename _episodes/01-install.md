@@ -22,9 +22,11 @@ Before we begin, we need to install Docker!
 
 ### What's `Docker Toolbox`? Do I need it?
 
-If your OS does not meet the requirements of `Docker for Windows` or `Docker for Mac` you will need to install VirtualBox and Docker Toolbox.
+If your OS does not meet the requirements of `Docker for Windows` or `Docker for Mac` you will need to install [VirtualBox](https://www.virtualbox.org) and [Docker Toolbox](https://www.docker.com/products/docker-toolbox).
 
 
-### When your installation is compelted open a terminal (console/cmd) and type:
+### When it's finished
+Before running containers you need to give Docker acces too you locla hard drives. This can be enabled in Settings->Shared Drives.
+When your installation is completed open a terminal (console/cmd) and type:
 
 `docker pull bids/base_fsl`
