@@ -26,7 +26,7 @@ The following command will create a singularity container:
  -v /var/run/docker.sock:/var/run/docker.sock \
  -v D:\singularity:/output \
  --privileged -t --rm \
- filo/docker2singularity \            
+ singularityware/docker2singularity \            
  fsl_with_python
 ```
 
