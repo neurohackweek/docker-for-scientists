@@ -27,7 +27,7 @@ Don't forget about the dot at the end! It indicates the directory where Docker w
 
 `docker run -ti --rm fsl_with_r`
 
-Excercises:
+Exercises:
 
 1. Can you run R inside the container?
 2. What happens if you run the build command again?
