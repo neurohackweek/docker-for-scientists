@@ -1,7 +1,7 @@
 ---
 title: "Storing your containers on Docker Hub"
 teaching: 10
-exercises: 0
+exercises: 5
 questions:
 - "Where can I store my containers?"
 objectives:

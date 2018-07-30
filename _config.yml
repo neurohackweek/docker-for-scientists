@@ -9,7 +9,7 @@ kind: "lesson"
 title: "Using  containers (Docker/Singularity) in science"
 
 # Repository URL (without trailing slash).
-repo: https://github.com/chrisfilo/docker-for-scientists
+repo: https://github.com/neurohackweek/docker-for-scientists
 
 # Root URL below username.github.io domain, with leading slash but no trailing slash.
 # For example, for 'https://neurohackweek.github.io/lesson-example', use '/lesson-example'.

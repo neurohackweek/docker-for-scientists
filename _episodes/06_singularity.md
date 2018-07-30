@@ -1,6 +1,6 @@
 ---
 title: "Running containers on clusters and HPCs"
-teaching: 10
+teaching: 5
 exercises: 0
 questions:
 - "How can I run my containers on clusters/HPCs if my admin refuse to install Docker?"
