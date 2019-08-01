@@ -16,20 +16,22 @@ Docker images are created using simple recipe files called Dockerfiles. Let's cr
 
 ```
 FROM bids/base_fsl
-RUN apt-get update -y && apt-get install -y r-base
+RUN wget http://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O /opt/miniconda.sh
+RUN /bin/bash /opt/miniconda.sh -b -p /opt/conda
+ENV PATH="/opt/conda/bin:$PATH"
 ```
 
 Open a terminal in the same directory and run the following command:
 
-`docker build -t fsl_with_r .`
+`docker build -t fsl_with_conda .`
 
 Don't forget about the dot at the end! It indicates the directory where Docker will look for a Dockerfile - in our case it's the current working directory. This should build your image. You can run it like the previous one:
 
-`docker run -ti --rm fsl_with_r`
+`docker run -ti --rm fsl_with_conda`
 
 Exercises:
 
-1. Can you run R inside the container?
+1. Can you run python inside the container?
 2. What happens if you run the build command again?
-3. Could you modify your Dockerfile to include extra R packages?
+3. Could you modify your Dockerfile to include extra python packages?
 4. When you rebuild your image did you notice something unusual?

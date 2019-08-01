@@ -24,18 +24,18 @@ docker login
 ```
 
 Docker Hub takes container image names very seriously. Each image name has two components
-username and image name: `<username>/<image_name>`. For example `filo/fsl_with_r`.
+username and image name: `<username>/<image_name>`. For example `filo/fsl_with_conda`.
 To be able to upload an image to Docker Hub we need to rename it appropriately. In the folder without
 our `Dockerfile` we can add a new alias to our image:
 
 ```
-docker build -t `<username>/fsl_with_r .`
+docker build -t <username>/fsl_with_conda .
 ```
 
 Now we are ready to upload the image:
 
 ```
-docker push `<username>/fsl_with_r`
+docker push <username>/fsl_with_conda
 ```
 
 After this process is finished we will be able to see the image listed on Docker Hub. For me
@@ -48,5 +48,5 @@ docker rmi fsl_with_r <username>/fsl_with_r
 ```
 
 Exercises:
-1. Can you run `fsl_with_r`?
+1. Can you run `fsl_with_conda`?
 2. What about `<username>/fsl_with_r`?

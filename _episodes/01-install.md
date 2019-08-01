@@ -17,8 +17,8 @@ keypoints:
 
 Before we begin, we need to install Docker!
 
-- [Windows](https://docs.docker.com/engine/installation/windows/)
-- [Mac OS X](https://docs.docker.com/engine/installation/mac/)
+- [Windows](https://docs.docker.com/docker-for-windows/install/)
+- [Mac OS X](https://docs.docker.com/docker-for-mac/install/)
 - [Linux](https://docs.docker.com/engine/installation/linux/)
 
 ### What's `Docker Toolbox`? Do I need it?
