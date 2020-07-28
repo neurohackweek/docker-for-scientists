@@ -44,9 +44,9 @@ this will be at [https://hub.docker.com/u/filo/](https://hub.docker.com/u/filo/)
 But does this work? Can I retrieve the image? Lets remove the local copy first
 
 ```
-docker rmi fsl_with_r <username>/fsl_with_r
+docker rmi fsl_with_conda <username>/fsl_with_conda
 ```
 
 Exercises:
 1. Can you run `fsl_with_conda`?
-2. What about `<username>/fsl_with_r`?
+2. What about `<username>/fsl_with_conda`?

@@ -17,13 +17,9 @@ keypoints:
 
 Before we begin, we need to install Docker!
 
-- [Windows](https://docs.docker.com/docker-for-windows/install/)
+- [Windows](https://neurohackademy2020.slack.com/archives/C017PCJS63X/p1595694888002500)
 - [Mac OS X](https://docs.docker.com/docker-for-mac/install/)
 - [Linux](https://docs.docker.com/engine/installation/linux/)
-
-### What's `Docker Toolbox`? Do I need it?
-
-If your OS does not meet the requirements of `Docker for Windows` or `Docker for Mac` you will need to install [VirtualBox](https://www.virtualbox.org) and [Docker Toolbox](https://www.docker.com/products/docker-toolbox).
 
 
 ### When it's finished
