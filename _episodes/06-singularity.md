@@ -20,10 +20,3 @@ the need for special kernel versions or security workarounds. It still needs to 
 
 To run your image on the cluster:
 `singularity shell --cleanenv docker://filo/fsl_with_conda`
-
-You probably notice that each time we run this command a few slow conversion operations happen.
-We can also download the image to reuse it later with shorter start time
-`singularity build /tmp/my_container.img docker://filo/fsl_with_conda`
-
-Then we can reuse this image with:
-`singularity shell --cleanenv /tmp/my_container.img`
